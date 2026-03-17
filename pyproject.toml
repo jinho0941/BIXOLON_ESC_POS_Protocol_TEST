@@ -1,0 +1,9 @@
+[project]
+name = "test-print"
+version = "0.1.0"
+description = "BIXOLON SRP-350III ESC/POS receipt printer via win32print"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pywin32>=311",
+]
